@@ -1,0 +1,229 @@
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	color: #1a1b1f;
+}
+html { 
+	overflow-x:  hidden; 
+}
+
+nav {
+	margin-bottom: 10em;
+}
+
+.PortfolioLogo{
+	margin-left: 2em;
+	margin-top: 1em;
+	text-decoration: underline;
+}
+
+.Name {
+	font-size: 20px;
+	margin: 0 0;
+}
+
+.Designer {
+	font-size: 16px;
+	opacity: 60%;
+}
+.AboutMe {
+	font-size: 64px;
+	margin: 10px 0;
+}
+
+.section_about{
+	margin-bottom: 10em;
+}
+
+
+.workImage{
+	min-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: thick 1px;
+}
+.workImage > a {
+	max-height: 460px;
+	max-width: 100%;
+	overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+	cursor: pointer;
+}
+
+
+.workImage > a :hover {
+ opacity: 60%;
+  transition: all 1s ease;
+}
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.workDescription{
+	margin: 2em 0;
+	text-align: center;
+}
+.workDescription > h2{
+ margin-bottom: 5px ;
+}
+
+
+
+.ProjectName{
+	font-size: 20px;
+	margin: 0 0;
+	text-decoration: none;
+	color: #1a1b1f;
+	cursor: pointer;
+}
+
+.ProjectName:hover {
+   color: #1a1b1f;
+	opacity: 60%;
+	transition: all 1s ease;
+}
+
+.Description{
+	font-size: 16px;
+	opacity: 60%;
+}
+
+.bloc{
+	margin-bottom: 5em;
+}
+
+
+.ExpTitle{
+	font-size: 36px;
+	margin: 1em 0;
+}
+.contact_title{
+	padding-top: 2em;
+	margin-bottom: 2em;
+}
+.ExperienceTitle{
+	margin-bottom: 5em;
+}
+
+.Webflow{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.PargrafLigth{
+	margin-bottom: 5px;
+	font-size: 16px;
+	opacity: 60%;
+}
+.PargrafTiny{
+	margin: 0;
+	font-size: 12px;
+	opacity: 60%;
+}
+
+.section_experience{
+	margin-bottom: 5em;
+}
+
+#FormControlTextarea{
+	resize: none;
+	margin-bottom: 2em;
+}
+.section_contact{
+	margin: 0 1em;
+	padding: 0 5em;
+	background-color: #f4f4f4;
+}
+.contact_form{
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+.SubmitBtn{
+	text-transform: uppercase;
+}
+
+.footerText >a {
+	text-transform: uppercase;
+	font-size: 12px;
+	opacity: 60%;
+	color: #1a1b1f;
+	text-decoration: none;
+}
+
+.footerText>a:hover {
+	opacity: 100%;
+	text-decoration: none;
+	transition: 1s;
+}
+
+
+.footer {
+	margin-bottom: 2em;
+}
+
+
+
+@media (max-width: 425px){
+	.Name{
+		text-align: center;
+	}
+	.Designer{
+		text-align: center;
+	}
+	.AboutMe{
+		font-size: 36px;
+		text-align: center;
+	}
+
+	.col-8{
+		text-align: center;
+		width: 100%
+	}
+	.ExpGrid{
+		display: flex;
+		flex-direction: column;
+	}
+	.GridBlock{
+		text-align: center;
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	.ExpTitle{
+		text-align: center;
+		font-size: 30px;
+		margin: 0;
+	}
+	.FormRow{
+		width: 100%;
+		margin: 1em 0;
+	}
+
+	.FormTextarea{
+		width: 100%;
+		margin: 0;
+	}
+	.SubmitBtn{
+		width: 100%;
+	}
+
+}
+
+@media(max-width: 375px){
+	.section_contact{
+		margin: 0;
+		padding: 0 2em;
+	}
+}
+
+@media(max-width: 320px){
+	.section_contact{
+		margin: 0;
+		padding: 0 2em;
+	}
+}
