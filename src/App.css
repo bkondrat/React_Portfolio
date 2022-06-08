@@ -3,6 +3,47 @@
 	color: #1a1b1f;
 }
 
+html { 
+	overflow-x:  hidden; 
+}
+
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.designer {
+	font-size: 16px;
+	opacity: 60%;
+}
+
+@media (max-width: 425px) {
+  .designer {
+    text-align: center;
+	}
+
+  .col-8 {
+		text-align: center;
+		width: 100%
+	}
+
+  .exp-title {
+		text-align: center;
+		font-size: 30px;
+		margin: 0;
+	}
+}
+
 .App {
   text-align: center;
 }
