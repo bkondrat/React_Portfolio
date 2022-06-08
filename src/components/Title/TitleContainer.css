@@ -1,0 +1,26 @@
+.section_about{
+	margin-bottom: 10em;
+}
+
+.name {
+	font-size: 20px;
+	margin: 0 0;
+}
+
+
+
+.about-me {
+	font-size: 64px;
+	margin: 10px 0;
+}
+
+@media (max-width: 425px) {
+	.name {
+		text-align: center;
+	}
+
+	.about-me {
+		font-size: 36px;
+		text-align: center;
+	}
+}
