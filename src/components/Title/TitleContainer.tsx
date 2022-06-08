@@ -2,7 +2,7 @@ import "./TitleContainer.css";
 
 const TitleContainer = () => {
     return(
-        <div className="section_about">
+        <div className="section-about">
             <div className="container">
                 <h2 className="name">Nazar Omeliukh</h2>
                 <p className="designer">Product Designer</p>

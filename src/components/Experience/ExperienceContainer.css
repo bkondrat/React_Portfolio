@@ -6,11 +6,6 @@
 	margin-bottom: 5em;
 }
 
-.exp-title {
-	font-size: 36px;
-	margin: 1em 0;
-}
-
 .webflow {
 	font-size: 20px;
 	margin-bottom: 10px;
@@ -29,12 +24,6 @@
 }
 
 @media (max-width: 425px) {
-    .exp-title {
-		text-align: center;
-		font-size: 30px;
-		margin: 0;
-	}
-    
     .exp-grid {
         display: flex;
         flex-direction: column;

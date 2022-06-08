@@ -30,7 +30,7 @@ const ExperienceContainer = () => {
 						<p className="paragraf-light">Graphic Designer</p>
 						<p className="paragraf-tiny">April 2014 — Mar 2015</p>
 					</div>
-					<div className="col-3 GridBlock">
+					<div className="col-3 grid-block">
 						<h2 className="webflow">Webflow</h2>
 						<p className="paragraf-light">Graphic Designer</p>
 						<p className="paragraf-tiny">April 2014 — Mar 2015</p>

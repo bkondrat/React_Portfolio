@@ -1,6 +1,8 @@
 import { Layout } from 'antd';
 import { Content } from 'antd/lib/layout/layout';
+import ContactContainer from './components/Contact/ContactContainer';
 import ExperienceContainer from './components/Experience/ExperienceContainer';
+import FooterContainer from './components/Footer/FooterContainer';
 import HeaderContainer from './components/Header/HeaderContainer';
 import ProjectsContainer from './components/Projects/ProjectsContainer';
 import TitleContainer from './components/Title/TitleContainer';
@@ -14,12 +16,9 @@ function App() {
       <TitleContainer />
       <ProjectsContainer />
       <ExperienceContainer />
+      <ContactContainer />
     </Content>
-    {/* <Content style={{ padding: '0 50px' }}>
-
-      <div className="site-layout-content">Content</div>
-    </Content>
-    <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer> */}
+    <FooterContainer />
   </Layout>
   );
 }
