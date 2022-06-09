@@ -1,0 +1,91 @@
+.work-image {
+    min-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: thick 1px;
+}
+
+.work-image > a {
+	max-height: 460px;
+	max-width: 100%;
+	overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	cursor: pointer;
+}
+
+.work-image > a :hover {
+    opacity: 60%;
+    transition: all 1s ease;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.work-description {
+	margin: 2em 0;
+	text-align: center;
+}
+
+.work-description > h2 {
+    margin-bottom: 5px ;
+}
+
+.project-name {
+	font-size: 20px;
+	margin: 0 0;
+	text-decoration: none;
+	color: #1a1b1f;
+	cursor: pointer;
+}
+
+.project-name:hover {
+   color: #1a1b1f;
+	opacity: 60%;
+	transition: all 1s ease;
+}
+
+.description {
+	font-size: 16px;
+	opacity: 60%;
+	margin-top: 0;
+}
+
+.block {
+	margin-bottom: 5em;
+}
+
+.col-lg-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-lg-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+	.col-lg-8 {
+		flex: 0 0 auto;
+		width: 66.66666667%;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		flex: 0 0 auto;
+		width: 33.33333333%;
+	}
+}
