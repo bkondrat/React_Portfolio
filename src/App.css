@@ -38,6 +38,13 @@ p.designer {
 .row {
   display: flex;
   flex-wrap: wrap;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
+
+.row-cols-auto >* {
+  flex: 0 0 auto;
+  width: auto;
 }
 
 .exp-title {
@@ -58,6 +65,10 @@ p.designer {
 .col-4 {
   flex: 0 0 auto;
   width: 33.33333333%;
+}
+
+.col {
+  flex: 1 0 0%;
 }
 
 @media (min-width: 576px) {

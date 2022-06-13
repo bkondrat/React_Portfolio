@@ -1,5 +1,7 @@
 .footer {
 	margin-bottom: 2em;
+	justify-content: center;
+  display: flex;
 }
 
 .footer-text >a {
@@ -8,6 +10,7 @@
 	opacity: 60%;
 	color: #1a1b1f;
 	text-decoration: none;
+	padding: 0 10px;
 }
 
 .footer-text >a:hover {
